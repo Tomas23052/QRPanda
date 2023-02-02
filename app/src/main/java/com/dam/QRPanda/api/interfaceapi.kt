@@ -1,6 +1,6 @@
-package com.example.QRPanda.api
+package com.dam.QRPanda.api
 
-import com.example.QRPanda.models.*
+import com.dam.QRPanda.models.*
 import retrofit2.http.DELETE
 import retrofit2.http.Field
 import retrofit2.http.FormUrlEncoded

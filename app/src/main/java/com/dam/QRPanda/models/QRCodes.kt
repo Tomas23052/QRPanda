@@ -1,4 +1,4 @@
-package com.example.QRPanda.models
+package com.dam.QRPanda.models
 
 import android.os.Parcel
 import android.os.Parcelable

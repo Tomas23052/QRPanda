@@ -1,4 +1,4 @@
-package com.example.QRPanda.activities.fragments
+package com.dam.QRPanda.activities.fragments
 
 import android.app.AlertDialog
 import android.content.Intent
@@ -8,12 +8,12 @@ import android.os.Bundle
 import android.view.*
 import androidx.fragment.app.Fragment
 import android.widget.Toast
-import com.example.QRPanda.activities.AboutUs
-import com.example.QRPanda.activities.LoginActivity
-import com.example.QRPanda.activities.QRcodeList
-import com.example.QRPanda.api.RetrofitClient
-import com.example.QRPanda.models.QRCodeResponse
-import com.example.QRPanda.R
+import com.dam.QRPanda.activities.AboutUs
+import com.dam.QRPanda.activities.LoginActivity
+import com.dam.QRPanda.activities.QRcodeList
+import com.dam.QRPanda.api.RetrofitClient
+import com.dam.QRPanda.models.QRCodeResponse
+import com.dam.QRPanda.R
 import com.google.zxing.BarcodeFormat
 import com.google.zxing.WriterException
 import com.google.zxing.qrcode.QRCodeWriter

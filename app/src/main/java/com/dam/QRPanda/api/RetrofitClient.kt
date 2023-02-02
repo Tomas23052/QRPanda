@@ -1,4 +1,4 @@
-package com.example.QRPanda.api
+package com.dam.QRPanda.api
 
 import android.util.Base64
 import okhttp3.OkHttpClient

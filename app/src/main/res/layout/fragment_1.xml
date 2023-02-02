@@ -56,7 +56,6 @@
         android:layout_below="@+id/btnGen"
         android:layout_marginStart="330dp"
         android:layout_marginTop="60dp"
-
         android:adjustViewBounds="true"
         android:background="#FFFFFF"
         android:scaleType="centerInside"

@@ -1,9 +1,9 @@
-package com.example.QRPanda.activities
+package com.dam.QRPanda.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.viewpager2.widget.ViewPager2
-import com.example.QRPanda.R
+import com.dam.QRPanda.R
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayout.OnTabSelectedListener
 

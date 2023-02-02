@@ -1,4 +1,4 @@
-package com.example.QRPanda
+package com.dam.QRPanda
 
 import org.junit.Test
 

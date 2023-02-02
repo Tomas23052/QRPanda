@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.example.QRPanda'
+    namespace 'com.dam.QRPanda'
     compileSdk 32
 
     lintOptions{
@@ -12,7 +12,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.example.QRPanda"
+        applicationId "com.dam.QRPanda"
         minSdk 21
         targetSdk 32
         versionCode 1

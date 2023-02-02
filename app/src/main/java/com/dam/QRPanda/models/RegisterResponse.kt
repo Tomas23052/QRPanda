@@ -1,4 +1,4 @@
-package com.example.QRPanda.models
+package com.dam.QRPanda.models
 
 
 //Dados recebidos da API

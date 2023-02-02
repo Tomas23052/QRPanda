@@ -1,4 +1,4 @@
-package com.example.QRPanda.activities
+package com.dam.QRPanda.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,9 +6,9 @@ import android.os.Bundle
 import android.util.Patterns
 import android.view.WindowManager
 import android.widget.Toast
-import com.example.QRPanda.api.RetrofitClient
-import com.example.QRPanda.models.RegisterResponse
-import com.example.QRPanda.R
+import com.dam.QRPanda.api.RetrofitClient
+import com.dam.QRPanda.models.RegisterResponse
+import com.dam.QRPanda.R
 import kotlinx.android.synthetic.main.layout_register.*
 import retrofit2.Call
 import retrofit2.Callback

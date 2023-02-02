@@ -1,4 +1,4 @@
-package com.example.QRPanda.activities.fragments
+package com.dam.QRPanda.activities.fragments
 
 import android.app.AlertDialog
 import android.content.Intent

@@ -1,4 +1,4 @@
-package com.example.QRPanda.activities
+package com.dam.QRPanda.activities
 
 
 import android.content.Intent
@@ -8,9 +8,9 @@ import android.os.Bundle
 import android.util.Log.d
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.QRPanda.api.RetrofitClient
-import com.example.QRPanda.models.QRCodes
-import com.example.QRPanda.R
+import com.dam.QRPanda.api.RetrofitClient
+import com.dam.QRPanda.models.QRCodes
+import com.dam.QRPanda.R
 import com.google.zxing.BarcodeFormat
 import com.google.zxing.WriterException
 import com.google.zxing.qrcode.QRCodeWriter

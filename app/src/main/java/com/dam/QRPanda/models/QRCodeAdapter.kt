@@ -1,4 +1,4 @@
-package com.example.QRPanda.models
+package com.dam.QRPanda.models
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,8 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.QRPanda.models.QRCodeAdapter.QRCodeViewHolder
-import com.example.QRPanda.R
+import com.dam.QRPanda.models.QRCodeAdapter.QRCodeViewHolder
+import com.dam.QRPanda.R
 
 
 //Adaptador da RecyclerView

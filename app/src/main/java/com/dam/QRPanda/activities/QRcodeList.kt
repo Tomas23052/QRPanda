@@ -1,4 +1,4 @@
-package com.example.QRPanda.activities
+package com.dam.QRPanda.activities
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,9 +7,9 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.QRPanda.api.RetrofitClient
-import com.example.QRPanda.models.*
-import com.example.QRPanda.R
+import com.dam.QRPanda.api.RetrofitClient
+import com.dam.QRPanda.models.*
+import com.dam.QRPanda.R
 import kotlinx.android.synthetic.main.activity_qrcode_list.*
 import retrofit2.Call
 import retrofit2.Callback

@@ -1,11 +1,11 @@
-package com.example.QRPanda.activities
+package com.dam.QRPanda.activities
 
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.example.QRPanda.activities.fragments.Fragment1
-import com.example.QRPanda.activities.fragments.Fragment2
+import com.dam.QRPanda.activities.fragments.Fragment1
+import com.dam.QRPanda.activities.fragments.Fragment2
 
 //Código tirado da documentação fornecida pelo docente para criar fragmentos
 class Frag(fragmentActivity: FragmentActivity) : FragmentStateAdapter(fragmentActivity) {
