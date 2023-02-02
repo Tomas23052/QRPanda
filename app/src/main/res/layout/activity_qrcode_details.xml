@@ -1,0 +1,112 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activities.QRCodeDetails"
+    tools:ignore="MergeRootFrame"
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_details"
+            app:title="Detalhes"
+            app:titleTextColor="#FFFFFF"
+            app:navigationIcon="@drawable/back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/destiny_detail_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="24dp">
+
+            <ImageView
+                android:id="@+id/iVQRcode"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="130dp"
+                android:layout_marginStart="80dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_centerHorizontal="true" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <EditText
+                    android:id="@+id/et_qrcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_below="@+id/iVQRcode"
+                    android:hint="Código QR"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_delete"
+                    android:textSize="16sp"
+                    android:layout_below="@+id/iVQRcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Apagar"
+                    android:background="@drawable/rounded_corner"
+                    android:layout_weight="1"
+                    android:layout_marginHorizontal="5dp"
+                    android:backgroundTint="#d3d3d3"
+                    />
+
+                <Button
+                    android:id="@+id/btn_update"
+                    android:textSize="16sp"
+                    android:layout_below="@+id/iVQRcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:background="@drawable/rounded_corner"
+                    android:text="Atualizar"
+                    android:textColor="@android:color/white"
+                    android:layout_weight="1"
+                    android:layout_marginHorizontal="5dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
